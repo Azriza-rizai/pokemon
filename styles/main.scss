@@ -1,0 +1,22 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 200px;
+
+    .types {
+        display: flex;
+        flex-direction: row;
+
+        span {
+            padding: 1px;
+           
+            &.plant {
+                background-color: green;
+            }
+            &.poison {
+                background-color: purple;
+            }   
+        }
+    }
+}
