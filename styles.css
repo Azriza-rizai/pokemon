@@ -1,0 +1,58 @@
+body {
+    background: url('img/container_bg.png') repeat center center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    padding: 0;
+}
+header {
+    background-color: #ffffff;
+    padding: 10px;
+}
+#pokedex {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+#pokedex :hover {
+    background: #eeeeee;
+    color: black; 
+}
+
+.pokemon-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-card img {
+    width: 100px;
+    height: 100px;
+}
+.pokemon-info {
+    margin-top: 10px;
+}
+.pokemon-types span {
+    display: inline-block;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.type-plant { background-color: green; }
+.type-fire { background-color: red; }
+.type-water { background-color: blue; }
+.type-bug { background-color: brown; }
+.type-normal { background-color: gray; }
+.type-poison { background-color: purple; }
+.type-fairy { background-color: pink; }
+.type-ground { background-color: sienna; }
+.type-dark { background-color: black; }
+.type-ice { background-color: cyan; }
+.type-psychic { background-color: magenta; }
